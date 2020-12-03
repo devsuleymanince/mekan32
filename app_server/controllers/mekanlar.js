@@ -2,6 +2,7 @@
 const anaSayfa=function(req, res, next) {
 	res.render('mekanlar-liste', {
 		'baslik': 'Anasayfa',
+		'footerYazi': 'Süleyman İnce 2020 - Her Hakkı Saklıdır',
 		'sayfaBaslik':{
 			'siteAd':'Mekanİnce',
 			'aciklama':'Isparta da popüler mekanlar'
@@ -57,6 +58,7 @@ const mekanBilgisi=function(req, res, next) {
 	res.render('mekan-detay', 
 	{
 	 'baslik':'Mekan Bilgisi',
+	 'footerYazi': 'Süleyman İnce 2020 - Her Hakkı Saklıdır',
 	 'sayfaBaslik':'Starbucks',
 	 'mekanBilgisi':{
 	   'ad':'Starbucks',
